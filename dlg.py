@@ -12,7 +12,7 @@ from models.vision import LeNet, weights_init
 from utils import label_to_onehot, cross_entropy_for_onehot
 
 def deep_leakage_attack():
-    data_dir = "data"
+    data_dir = "data/facial_images"
     image_files = sorted([f for f in os.listdir(data_dir) if f.endswith(".jpg")])
     if not image_files:
         st.error("❌ No images found, please check the data directory!")

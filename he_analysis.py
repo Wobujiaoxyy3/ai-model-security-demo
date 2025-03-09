@@ -12,7 +12,6 @@ from models.vision import LeNet, weights_init
 from utils import label_to_onehot, cross_entropy_for_onehot
 
 def he_training_analysis():
-    st.header("🔐 Homomorphic Encryption Training Analysis")
     st.markdown("""This demo illustrates the impact of **Homomorphic Encryption (HE)** on training time and gradient storage overhead during model training. \
         By clicking the button below, you can start the analysis. We train a simple LeNet model on 10 facial images, comparing two scenarios: with and without Homomorphic Encryption. \
         The demo evaluates the **average training time per image** and the **gradient storage requirements**, providing insights into the computational cost of privacy-preserving machine learning.""")
@@ -22,7 +21,7 @@ def he_training_analysis():
         ctx.generate_galois_keys()
         ctx.global_scale = 2**40
         
-        image_set = sorted([os.path.join("data", f) for f in os.listdir("data") if f.endswith(".jpg")])[:10]
+        image_set = sorted([os.path.join("data/facial_images", f) for f in os.listdir("data/facial_images") if f.endswith(".jpg")])[:10]
         tp = transforms.ToTensor()
         net = LeNet().to("cpu")
         torch.manual_seed(1234)
