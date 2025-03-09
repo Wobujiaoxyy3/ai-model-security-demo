@@ -34,20 +34,6 @@ st.markdown("""
         color: #2C3E50;
     }
 
-    .sidebar-title {
-        font-size: 60px;
-        font-weight: bold;
-        color: #ffffff;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    
-    .sidebar-radio-label {
-        font-size: 18px;
-        font-weight: bold;
-        color: #ffffff;
-    }
-
     .stRadio > div {
         background-color: #2b3e50;
         padding: 10px;
@@ -66,12 +52,7 @@ st.markdown("""
 
 # Create Sidebar
 st.sidebar.title(" Security and Privacy in AI-driven digital banking")
-# page = st.sidebar.radio("Select Function", ["Introduction", "Model Inversion Attack", "HE Training Analysis", "Federated Learning Analysis"])
 
-# st.sidebar.markdown('<p class="sidebar-title">Security and Privacy in AI Model</p>', unsafe_allow_html=True)
-
-# Sidebar selection
-# st.sidebar.markdown('<p class="sidebar-radio-label">Select Function</p>', unsafe_allow_html=True)
 page = st.sidebar.radio(
     "",
     ["Introduction", "Model Inversion Attack", "HE Training Analysis", "Federated Learning Analysis"]
