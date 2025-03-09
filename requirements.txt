@@ -1,0 +1,10 @@
+matplotlib==3.10.1
+numpy==2.2.3
+pandas==2.2.3
+Pillow==11.1.0
+pymongo==4.11.2
+scikit_learn==1.6.1
+streamlit==1.42.2
+tenseal==0.3.16
+torch==2.6.0
+torchvision==0.21.0
