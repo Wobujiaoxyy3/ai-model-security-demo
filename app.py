@@ -2,7 +2,7 @@ import streamlit as st
 from intro import intro
 from he_analysis import he_training_analysis
 from dlg import deep_leakage_attack
-from fl_anaysis import federated_learning_analysis
+from fl_analysis import federated_learning_analysis
 
 # Set Streamlit Page Config
 st.set_page_config(layout="wide", page_title="Security and Privacy in AI Model")
