@@ -49,8 +49,11 @@ This will launch the web interface for interacting with the demo.
 ---
 
 ## Reference
-The implementation of the **DLG Attack** is inspired by [this repository](https://github.com/mit-han-lab/dlg?tab=readme-ov-file), implemented by [MIT Han Lab](https://github.com/mit-han-lab).  
+The implementation of the **DLG Attack** is inspired by [DLG repo](https://github.com/mit-han-lab/dlg?tab=readme-ov-file), implemented by [MIT Han Lab](https://github.com/mit-han-lab). 
 
-You can also refer to the paper **Deep Leakage from Gradients**:  
-- [[arXiv]](https://arxiv.org/abs/1906.08935)  
-- [[Website]](https://dlg.mit.edu)  
+You can also refer to the paper **Deep Leakage from Gradients**: [[arXiv]](https://arxiv.org/abs/1906.08935)  [[Website]](https://dlg.mit.edu)  
+
+The implementation of **Federated Learning** refers to [Federated-Learning-PyTorch](https://github.com/AshwinRJ/Federated-Learning-PyTorch).
+
+## License
+This repository is released under the MIT license. See [LICENSE](LICENSE) for additional details.
