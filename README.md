@@ -40,11 +40,18 @@ conda activate ai_security_demo
 pip install -r requirements.txt
 ```
 
-### Run the Streamlit App
+### 4️⃣ Run the Streamlit App
 ``` bash
 streamlit run app.py
 ```
 This will launch the web interface for interacting with the demo.
+
+**Optional**
+If you want to run the training process for centralized learning and federated learning locally, please execute the following command:
+``` bash
+python fl_training.py
+```
+It will display the training process, metrics, and training curves in your terminal.
 
 ---
 
