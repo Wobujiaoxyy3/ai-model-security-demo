@@ -47,6 +47,7 @@ streamlit run app.py
 This will launch the web interface for interacting with the demo.
 
 **Optional**
+
 If you want to run the training process for centralized learning and federated learning locally, please execute the following command:
 ``` bash
 python fl_training.py
